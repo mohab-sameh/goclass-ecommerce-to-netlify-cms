@@ -1,0 +1,20 @@
+---
+title: Support
+permalink: '{{ page.fileSlug }}/index.html'
+layout: support.html
+slug: support
+tags: pages
+seo:
+  noindex: false
+  title: Support | GOCLASS Webflow Template
+  og:title: Support | GOCLASS Webflow Template
+  og:image: >-
+    https://uploads-ssl.webflow.com/6244d2405b33580e60d2e9a3/625ed871c984b442786c2432_OPEN-WEBFLOW.png
+  twitter:title: Support | GOCLASS Webflow Template
+  additional_tags: >-
+    <meta
+    content="https://uploads-ssl.webflow.com/6244d2405b33580e60d2e9a3/625ed871c984b442786c2432_OPEN-WEBFLOW.png"
+    property="twitter:image">
+---
+
+

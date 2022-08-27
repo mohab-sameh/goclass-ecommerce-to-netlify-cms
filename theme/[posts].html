@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html data-wf-page="630a46b33591b58d036df4d2" data-wf-site="630a46b33591b5d49f6df4b8"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+  <meta charset="utf-8">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  
+  <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/goclass-ecommerce-9c0cd3.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="{{ settings.site.favicon | default: "/assets/images/favicon.png" }}" rel="shortcut icon" type="image/x-icon">
+  <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon"><!--  Please keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+  <style>
+  html { font-size: calc(0.625rem + 0.41666666666666663vw); }
+  @media screen and (max-width:1920px) { html { font-size: calc(0.625rem + 0.41666666666666674vw); } }
+  @media screen and (max-width:1440px) { html { font-size: calc(0.8126951092611863rem + 0.20811654526534862vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); } }
+</style>
+  <!--  [Attributes by Finsweet] Custom slider dots  -->
+  <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-sliderdots@1/sliderdots.js"></script>
+  <!--  [Attributes by Finsweet] Custom Form Select  -->
+  <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-selectcustom@1/selectcustom.js"></script>
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}{%- include "partials/_snipcart" -%}<style>.w-video.w-embed {
+            aspect-ratio: 16 / 9;
+        }</style></head>
+<body>
+  <div style="opacity:0" class="page-wrapper">
+    {%- include "partials/global-styles" -%}
+    <main class="main-wrapper">
+      {%- include "partials/navbar" -%}
+      <section class="section-post-hero">
+        <div class="page-padding-grid">
+          <div id="w-node-a4f6e8e9-678d-69fb-f918-0eaa18117401-036df4d2" data-w-id="a4f6e8e9-678d-69fb-f918-0eaa18117401" class="post-hero-component">
+            <div id="w-node-a8e8b216-b500-0e3f-e0a9-d55448575201-036df4d2" class="post-hero-image">
+              <div href="#video" data-w-id="a8e8b216-b500-0e3f-e0a9-d55448575202" class="product-hero-background"><img src="{{ f_featured-image.url }}" loading="lazy" alt="{{ f_featured-image.alt }}" class="image-full">
+                <div class="overlay light-overlay"></div>
+              </div>
+            </div>
+            <div class="post-hero-content">
+              <div class="margin-bottom margin-xlarge">
+                <div class="tag-category">
+                  <div>{{ f_post-tag }}</div>
+                </div>
+              </div>
+              <div>
+                <div class="margin-bottom margin-large">
+                  <div class="margin-bottom margin-medium">
+                    <h1 class="heading-xlarge">{{ title }}</h1>
+                  </div>
+                  <div class="margin-bottom margin-xhuge">
+                    <div class="post-description">
+                      <div>
+                        <p class="text-size-large">{{ f_short-description }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="{{ links.56000b0 }}" class="scroll-link w-inline-block">
+                  <div class="scroll-link-icons">
+                    <div class="link-icon-wrapper"><img src="{{ images.57d86f6a.url }}" loading="lazy" alt="{{ images.57d86f6a.alt | trim | escape }}" class="icon-small"></div>
+                    <div class="link-icon-wrapper"><img src="{{ images.57d86f6a.url }}" loading="lazy" alt="{{ images.57d86f6a.alt | trim | escape }}" class="icon-small"></div>
+                  </div>
+                  <div class="button-background"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="scroll" class="section-post-body">
+        <div id="w-node-_079dbd1d-b0dd-1573-a689-1f3adf1b37cd-036df4d2" class="page-padding-grid">
+          <div id="w-node-_2f2b5f6a-d566-ad50-2596-f4e2612b65cc-036df4d2" class="padding-vertical padding-xhuge">
+            <div class="post-body-component">
+              <div id="w-node-_5dea6aee-c03f-f0b2-b580-fc249bb575b8-036df4d2" class="post-author-box">
+                <div class="margin-bottom margin-small">
+                  <div class="quote-credit">
+                    <div class="credit-avatar">{%- assign teachersOfPosts = f_author | resolveReference -%}<img src="{{ teachersOfPosts.data.f_avatar-image.url }}" loading="lazy" alt="{{ teachersOfPosts.data.f_avatar-image.alt }}" class="image-full"></div>
+                    <div>
+                      <div class="quote-name">
+                        {%- assign teachersOfPosts = f_author | resolveReference -%}<div class="text-size-regular">{{ teachersOfPosts.data.title }}</div>
+                      </div>
+                      {%- assign teachersOfPosts = f_author | resolveReference -%}<div class="text-size-small text-color-grey">{{ teachersOfPosts.data.f_specialty }}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="margin-bottom margin-small">
+                  {%- assign teachersOfPosts = f_author | resolveReference -%}<p class="text-size-regular">{{ teachersOfPosts.data.f_short-description }}</p>
+                </div>
+                {%- assign teachersOfPosts = f_author | resolveReference -%}<a href="{{ teachersOfPosts.url }}" class="underline-link dark w-inline-block">
+                  <div class="button-text-wrapper">
+                    <div class="button-text">{{ texts.4d52f8fa }}</div>
+                    <div class="button-text">{{ texts.4d52f8fa }}</div>
+                  </div>
+                  <div class="arrow-icon-wrapper"><img src="{{ images.4a873a9a.url }}" loading="lazy" alt="{{ images.4a873a9a.alt | trim | escape }}" class="arrow-icon"><img src="{{ images.4a873a9a.url }}" loading="lazy" alt="{{ images.4a873a9a.alt | trim | escape }}" class="arrow-icon"></div>
+                </a>
+              </div>
+              <div id="w-node-_6cd9dac0-eff5-5b7b-b833-7184ea352848-036df4d2" class="post-body">
+                <div class="text-rich-text w-richtext">{{ content | markdown }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-more-posts">
+        <div class="page-padding">
+          <div class="container-large">
+            <div class="padding-vertical padding-xhuge">
+              <div class="home-cohort-grid">
+                <div id="w-node-_799542b4-521a-812f-588e-98b63d3ea552-036df4d2" class="card-collection-intro">
+                  <div class="margin-bottom margin-small">
+                    <h1 class="heading-large">{{ texts.7885c2b0 }}</h1>
+                  </div>
+                  <div class="margin-bottom margin-medium">
+                    <p class="text-size-regular">{{ texts.2af0d2cc }}</p>
+                  </div>
+                  <a href="{{ links.634882d6 }}" class="button w-inline-block">
+                    <div class="button-text-wrapper">
+                      <div class="button-text">{{ texts.bda6cf9 }}</div>
+                      <div class="button-text">{{ texts.bda6cf9 }}</div>
+                    </div>
+                    <div class="button-background"></div>
+                  </a>
+                </div>
+                {%- assign collection = collections.posts | filter: "slug,ne,DYN_CONTEXT", "ALL", page.inputPath | sort: "_random" | limit: 3 -%}<div id="w-node-_799542b4-521a-812f-588e-98b63d3ea560-036df4d2" class="w-dyn-list">
+                  {%- unless collection.length == 0 -%}<div role="list" class="card-collection-list w-dyn-items">
+                    {%- for item in collection -%}<div role="listitem" class="collection-cohort-item w-dyn-item">
+                      <a href="{{ item.url }}" class="collection-card w-inline-block">
+                        <div class="resource-image-wrapper"><img src="{{ item.data.f_featured-image.url }}" loading="lazy" alt="{{ item.data.f_featured-image.alt }}" class="image-full">
+                          <div class="overlay light-overlay"></div>
+                          <div style="display:none;-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="viewport-mouse-wrapper">
+                            <div class="link-arrow-hover"><img src="{{ images.-2d89d0b4.url }}" loading="lazy" style="-webkit-transform:translate3d(-1.5rem, 1.5rem, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(-1.5rem, 1.5rem, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(-1.5rem, 1.5rem, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(-1.5rem, 1.5rem, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="{{ images.-2d89d0b4.alt | trim | escape }}" class="link-arrow-icon"></div>
+                          </div>
+                          <div data-w-id="343d11da-7a9b-db5e-f152-00da2c68814b" style="display:block" class="card-arrow-trigger"></div>
+                          {%- if item.data.f_featured == true -%}<div class="tag-featured">
+                            <div class="text-size-small">{{ texts.-d78b7b2 }}</div>
+                          </div>{%- endif -%}
+                        </div>
+                        <div class="featured-card-info">
+                          <div class="margin-bottom margin-xsmall">
+                            <div class="tag-category">
+                              <div>{{ item.data.f_post-tag }}</div>
+                            </div>
+                          </div>
+                          <h3 class="heading-small">{{ item.data.title }}</h3>
+                        </div>
+                      </a>
+                    </div>{%- endfor -%}
+                  </div>{%- endunless -%}
+                  {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                    <div>{{ texts.3d503d2b }}</div>
+                  </div>{%- endif -%}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {%- include "partials/section-banner" -%}
+    </main>
+    {%- include "partials/footer" -%}
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
+  <script src="/assets/js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script>{%- include "partials/_snipcart-footer" -%}</body></html>
